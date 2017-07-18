@@ -1,12 +1,15 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import { Button } from 'react-toolbox/lib/button';
+
 const HelloWorld = ({ name, updateName }) => (
   <div>
     <h3>
       Hello, {name}!
     </h3>
     <hr />
+    <Button label="test Toolbox" raised primary/>
     <form >
       <label htmlFor="name">
         Say hello to:
